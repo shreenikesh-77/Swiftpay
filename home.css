@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    margin-right: 20px;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 5px 10px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+/* Same styles as before */
+
+footer {
+    background-color: #333;
+    margin: bottom 10px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: bottom 10px;
+}
+
+.about,
+.follow-us,
+.trending {
+    flex: 1;
+    padding: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.trending ul {
+    list-style: none;
+    padding: 0;
+}
+
+.trending li {
+    margin-bottom: 5px;
+}
+.abc{
+    margin-top: 6cm;
+}
+.abx{
+    margin-top: 13cm;
+}
+strong{
+    font-size: 100px;
+    margin-top: 25px;
+    padding-bottom: 50%;
+}
+.we{
+    font-size: medium;
+}

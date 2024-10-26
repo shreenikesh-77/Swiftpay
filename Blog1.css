@@ -1,0 +1,99 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .Hamburger {
+    background-color: #333; 
+    color: whitesmoke; 
+    padding: 10px;
+  }
+  
+  
+  .ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .ul li {
+    margin: 0 15px; 
+  }
+  
+  .ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .ul li a:hover {
+    text-decoration: underline; 
+  }
+  .colour-1{
+    background-color: darkmagenta;
+    width: auto;
+    height: 350px;
+    padding-left: 250px;
+    padding-right: 250px;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin: auto;
+    color: white;
+    
+  }
+  .colour{
+    background-color: #45FFCA;
+  }
+  .pay{
+    margin-left: 40%;
+}
+  .colour-2{
+    background-color: #F8F0E5;
+  }
+.img {
+  margin-bottom: 20px; 
+}
+.col-lg-1 {
+  margin-right: 20px; 
+}
+@media (min-width: 992px) {
+  .col-lg-1 {
+      margin-right: 40px; 
+}
+.abc {
+  margin-top: 6cm;
+}
+
+.footer-content {
+  display: flex;]
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333; 
+  color: whitesmoke;
+}
+
+.about,
+.follow-us,
+.trending {
+  flex: 1;
+  padding: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.trending ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trending li {
+  margin-bottom: 5px;
+}
+

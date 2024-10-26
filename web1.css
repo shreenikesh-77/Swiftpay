@@ -1,0 +1,63 @@
+body{
+    background-image:url("out.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.pro{
+  text-decoration: underline;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .Hamburger {
+    background-color: #333; 
+    color: white; 
+    padding: 10px;
+  }
+  
+  
+  .ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .ul li {
+    margin: 0 15px; 
+  }
+  
+  .ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .ul li a:hover {
+    text-decoration: underline; 
+  }
+table{
+    margin: auto;
+    background-color: whitesmoke;
+    input-security: auto;
+    border-spacing: 0 15px;
+    
+
+}
+p{
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: Arial,'Times New Roman', Times, serif;
+   
+}
+div{
+    margin: auto;
+    width: 300px;
+}
+.button-container{
+   display: flex;
+   justify-content: center;
+   margin-top: 20px; 
+}

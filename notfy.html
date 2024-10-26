@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notifications</title>
+    <link rel="stylesheet" href="note.css">
+    <link rel="stylesheet" href="blog1.css">
+
+</head>
+<body>
+    <button id="showNotification"> Notification</button>
+
+    <div id="notificationContainer" class="hidden">
+        <div id="notification" class="notification">
+            <span class="close" id="closeNotification">&times;</span>
+            <h2>Swiftpay</h2>
+            <p>The amount has been added to the Piggybank </p>
+        </div>
+
+    <div id="notificationContainer1" class="hidden">
+        <div id="notification1" class="notification">
+            <span class="close" id="closeNotification1">&times;</span>
+            <h2>Swiftpay</h2>
+            <p>The amount has been added to the Piggybank </p>
+        </div>
+    </div>
+
+    <script >
+        
+document.getElementById('showNotification').addEventListener('click', function () {
+    const notificationContainer = document.getElementById('notificationContainer');
+    const notification = document.getElementById('notification');
+    notificationContainer.classList.remove('hidden');
+    document.getElementById('closeNotification').addEventListener('click', function () {
+        notificationContainer.classList.add('hidden');
+    });
+    setTimeout(function () {
+        notificationContainer.classList.add('hidden');
+    }, 5000); 
+});
+</script>
+</body>
+</html>
